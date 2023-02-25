@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ryan Kwok's Portfolio</title>
+		<link rel="icon" href="images/rklogo.ico" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img id="myImg" src="images/profile.jfif" alt="" /></a>
+					<h1><strong>Ryan Kwok</strong>, aspiring data analyst.<br />
+					Check out some of my stuff!<br /></h1>
+					<h1>(<a href="https://soundcloud.com/frontmenrci" target="_blank">Mystery Music</a>)</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>World War I THOR Data Analysis Project (Excel)</h2>
+						</header>
+						<p>
+                            Analysis conducted using Microsoft Excel. The objective of this project was to demonstrate general proficiency of the software
+                            using a smaller dataset suitable for MS Excel. The 
+                            project utilizes pivot tables, various types of charts, 3D mapping, filters, slicers and the occasional 
+                            formula for data cleaning/aggregation (CONCAT, UPPER, TRIM etc).
+                        </p>
+						<p>
+							This dataset was obtained from a <a href="https://data.world/datamil/world-war-i-thor-data" target="_blank">World War I era THOR Report</a> 
+							(Theatre History of Operations) provided by the United States Air Force. This report only contains aerial mission data from the United States, United Kingdom, Italy and France. 
+							Given that this data is over a hundred years old, it should come as no 
+							surprise that there are an abundance of null fields in just about every column. For this reason, I've opted only to include fields that are not null,
+							so bear in mind that the true numbers are likely to be much higher than reported here.
+						</p>
+						<p>
+							I've also provided slicers, which can be used to include blanks as well as filter out fields of your choosing. Enable Multi-Select by clicking 
+							on the 3-checkmark button next to each slicer's title. Pivot tables used to create these charts can be found in the downloadable Excel workbooks.  
+						</p>
+					</section>
+
+
+
+				<!-- Two -->
+
+					<!-- Two D -->
+                    <section id="twoD">
+						<!-- <h2>Chart 5</h2> -->
+                        <iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212748&authkey=%21ABVQ6whakWgo23U&em=2&ActiveCell='Count%20of%20Msn%20By%20Country'!J14&Item='Count%20of%20Msn%20By%20Country'!A7%3AN29&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+                        <p>
+                            Kicking things off, we have a chart that provides a glimpse into the total number of aerial missions carried out by the Allies (included in the report).
+                        </p>
+                    </section>
+
+                    <!-- Two C -->
+                    <section id="twoC">
+						
+                        <iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212746&authkey=%21AGpkDMwj-M6YGxQ&em=2&ActiveCell='Msns%20By%20Country%20Over%20Time'!I64&Item='Msns%20By%20Country%20Over%20Time'!A52%3AJ81&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+                        <p>
+                            We can see that Italy was an active participant in the conflict from the very beginning and that it was not until
+							the final year of the campaign that the number of aerial missions drastically increased. Both the United States and the United
+							Kingdom made a significant efforts alongside Italy (and little from France) to close out the war in the fall of 1918.
+                        </p>
+                    </section>
+
+					<section id="two">
+						
+                        <iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212738&authkey=%21AEEmOatk5rJ-J84&em=2&ActiveCell='Total%20Weight%20of%20Bombs%20Over%20Time'!F60&Item='Total%20Weight%20of%20Bombs%20Over%20Time'!A50%3AK72&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+						<p>
+                            Here we have the weight in bombs (monthly totals) dropped by each country. According to the most recently updated <a href="https://data.world/datamil/thor-data-dictionary/workspace/file?filename=THOR+Draft+Data+Dictionary+Dec+2016.pdf" target="_blank">THOR Data Dictionary</a>:
+							"Weapon weight is based on the net explosive actually delivered to the target, irrespective of the weight of propellant it took to reach the target", meaning
+							that if a "missile itself weighs 100 pounds, but delivers a 20 pound explosive warhead to the target, the weight used is 20 pounds."
+							
+                        </p>
+						<p>
+							As expected, this chart mirrors the previous one and also
+							provides some insight into just how many Allied explosives were dropped during the conflict.
+						</p>
+					</section>
+                    
+					<!-- Two A -->
+					<section id="twoA">
+						
+                        <iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212740&authkey=%21AE3NAwG0HK0wcRE&em=2&ActiveCell='Day%20Vs%20Night%20Msns'!G19&Item='Day%20Vs%20Night%20Msns'!A9%3AI31&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+                        <p>
+                            It appears that Italy flew more night missions while the United States tended to carry out more daytime operations. 
+                        </p>
+
+						<iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212750&authkey=%21AE-ElTxaPd4aF7I&em=2&ActiveCell='testing'!G21&Item='testing'!A15%3AK57&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+						<p>
+							Night operations carried out by Italy included fewer planes per mission, likely in
+							an effort to avoid being spotted by anti-air defenses. The bulk of the missions carried out by the United States occurred in a short burst near the 
+							end of the war; highly visible operations during daytime likely required the use of many planes per mission to overwhelm enemy anti-air forces.
+						</p>
+						<p>
+							The United Kingdom flew a roughly equal number of planes per attack across both day and night missions. I haven't really got a good explanation for
+							this one, but it's possible that the UK airforce decided it would be best to fly with the same number of planes regardless of the situation.
+						</p>
+                    </section>
+
+                    <!-- Two B -->
+                    <section id="twoB">
+						
+                        <iframe width="920" height="484" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=EB0E6E0F8434B20F%212742&authkey=%21AIu4BrBdayy4lwc&em=2&ActiveCell='Friendly%20Casualties'!H16&Item='Friendly%20Casualties'!A11%3AL33&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false&ed1JS=false"></iframe>
+                        <p>
+                            
+                        </p>
+                    </section>
+
+                    <!-- Two E -->
+                    <section id="twoE">
+						<h2>Mapped Aerial Engagements Over The Course of The War</h2>
+                        <iframe width="857" height="482" src="https://www.youtube-nocookie.com/embed/rud8YwShBvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p>
+                            Experimenting with Excel's 3D mapping feature. This animation displays cumulative strikes at multiple locations over the course of WWI.
+							I created an interactive mapping chart that included mission information for each location, but unfortunately, Excel doesn't allow exports of 
+							its 3D maps. :( 
+                        </p>
+
+                        <img src="/images/WWI_Engagments_Image_Labelled.png" width="772" height="536" alt="" />
+						<p>
+                            Still frame from the above animation. 
+                        </p>
+                    </section>
+
+
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Feel free to shoot me a direct message through Email or LinkedIn. Alternatively, you can use this strange message box thing that was built into the website template. Looking forward to hearing from you!</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form class="row g-3" action="https://formsubmit.co/ryankwok123@hotmail.com" method="POST">
+									<!-- honeypot -->
+									<input type="text" name="_honey" style="display: none;">
+
+									<!-- disable captcha-->
+									<!-- <input type="hidden" name="_captcha" value="false"> -->
+
+									<input type="hidden" name="_next" value="https://ryankwok123.github.io/thanks.html">
+
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input class="form-control" type="text" name="name" id="name" placeholder="Name" required/></div>
+										<div class="col-6 col-12-xsmall"><input class="form-control" type="email" name="email" id="email" placeholder="Email" required /></div>
+										<div class="col-12"><textarea class="form-control" name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
+									</div>
+									<div>
+										<br>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+										</ul>
+									</div>
+								</form>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Toronto, Ontario<br />
+										Canada
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										647-528-0079
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">ryankwok123@hotmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/ryankwok123/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/ryankwok123" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#three" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; RyanK</li><li>Created by: <a href="#">RyanK</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
